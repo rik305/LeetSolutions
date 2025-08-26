@@ -19,11 +19,22 @@ def twoSum(nums, target):
 ==================================================
 
 
+
 # Problem 2316: Count Hills and Valleys in an Array
 # URL: https://leetcode.com/problems/count-hills-and-valleys-in-an-array/
-# Date: 2025-08-26 18:16:06
+# Date: 2025-08-26 18:16:31
 
-class Solu
+class Solution:
+    def countHillValley(self, nums: List[int]) -> int:
+        c = 0
+        i = 1
+        while i != (len(nums) - 1):
+            if nums[i-1] == nums[i]:
+                nums.pop(i-1)
+                i -= 1
+            elif nums[i] == nums[i+1]:
+                nums.pop(i)
+
 
 # End of solution for Problem 2316
 ==================================================
