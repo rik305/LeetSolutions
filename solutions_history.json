@@ -5,5 +5,12 @@
     "question_slug": "two-sum",
     "timestamp": "2024-01-01T12:00:00Z",
     "url": "https://leetcode.com/problems/two-sum/"
+  },
+  {
+    "question_number": "2316",
+    "question_title": "Count Hills and Valleys in an Array",
+    "question_slug": "count-hills-and-valleys-in-an-array",
+    "timestamp": "2025-08-26T12:27:07.357Z",
+    "url": "https://leetcode.com/problems/count-hills-and-valleys-in-an-array/submissions/1748970803/?envType=daily-question&envId=2025-08-17"
   }
 ]
