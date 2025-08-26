@@ -20,9 +20,10 @@ def twoSum(nums, target):
 
 
 
+
 # Problem 2316: Count Hills and Valleys in an Array
 # URL: https://leetcode.com/problems/count-hills-and-valleys-in-an-array/
-# Date: 2025-08-26 18:16:31
+# Date: 2025-08-26 22:46:07
 
 class Solution:
     def countHillValley(self, nums: List[int]) -> int:
