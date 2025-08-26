@@ -39,12 +39,22 @@ class Solution:
 
 # End of solution for Problem 2316
 ==================================================
+
 # Problem 1302: Delete Characters to Make Fancy String
 # URL: https://leetcode.com/problems/delete-characters-to-make-fancy-string/
-# Date: 2025-08-26 18:02:10
+# Date: 2025-08-26 23:13:57
 
-        o.append(s[-1])
-        return ''.join(o)
+class Solution:
+    def makeFancyString(self, s: str) -> str:
+        if len(s) < 3:
+            return s
+        o = [s[0]]
+        for i in range(1, len(s)-1):
+            if s[i-1] == s[i] == s[i+1]:
+                next
+            else:
+                o.append(s[i])
+
 
 # End of solution for Problem 1302
 ==================================================
