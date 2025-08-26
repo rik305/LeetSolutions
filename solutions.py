@@ -37,12 +37,14 @@ class Solution:
 # End of solution for Problem 2316
 ==================================================
 
+
 # Problem 1302: Delete Characters to Make Fancy String
 # URL: https://leetcode.com/problems/delete-characters-to-make-fancy-string/
-# Date: 2025-08-26 18:02:05
+# Date: 2025-08-26 18:02:10
 
         o.append(s[-1])
         return ''.join(o)
 
 # End of solution for Problem 1302
 ==================================================
+
