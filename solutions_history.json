@@ -26,5 +26,12 @@
     "question_slug": "delete-characters-to-make-fancy-string",
     "timestamp": "2025-08-26T12:32:10.989Z",
     "url": "https://leetcode.com/problems/delete-characters-to-make-fancy-string/submissions/1748975279/?envType=daily-question&envId=2025-08-17"
+  },
+  {
+    "question_number": "2316",
+    "question_title": "Count Hills and Valleys in an Array",
+    "question_slug": "count-hills-and-valleys-in-an-array",
+    "timestamp": "2025-08-26T12:46:06.094Z",
+    "url": "https://leetcode.com/problems/count-hills-and-valleys-in-an-array/submissions/1748970803/?envType=daily-question&envId=2025-08-17"
   }
 ]

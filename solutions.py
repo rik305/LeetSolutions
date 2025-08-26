@@ -18,26 +18,15 @@ def twoSum(nums, target):
 # End of solution for Problem 1
 ==================================================
 
+
 # Problem 2316: Count Hills and Valleys in an Array
 # URL: https://leetcode.com/problems/count-hills-and-valleys-in-an-array/
-# Date: 2025-08-26 17:57:07
+# Date: 2025-08-26 18:16:06
 
-class Solution:
-    def countHillValley(self, nums: List[int]) -> int:
-        c = 0
-        i = 1
-        while i != (len(nums) - 1):
-            if nums[i-1] == nums[i]:
-                nums.pop(i-1)
-                i -= 1
-            elif nums[i] == nums[i+1]:
-                nums.pop(i)
-
+class Solu
 
 # End of solution for Problem 2316
 ==================================================
-
-
 # Problem 1302: Delete Characters to Make Fancy String
 # URL: https://leetcode.com/problems/delete-characters-to-make-fancy-string/
 # Date: 2025-08-26 18:02:10
