@@ -61,5 +61,12 @@
     "question_slug": "count-hills-and-valleys-in-an-array",
     "timestamp": "2025-08-26T17:47:17.919Z",
     "url": "https://leetcode.com/problems/count-hills-and-valleys-in-an-array/submissions/1749300035/?envType=daily-question&envId=2025-08-17"
+  },
+  {
+    "question_number": "1",
+    "question_title": "Two Sum",
+    "question_slug": "two-sum",
+    "timestamp": "2025-08-27T07:35:06.393Z",
+    "url": "https://leetcode.com/problems/two-sum/"
   }
 ]
