@@ -55,3 +55,22 @@ class Solution:
 # End of solution for Problem 1302
 ==================================================
 
+
+# Problem 21: Merge Two Sorted Lists
+# URL: https://leetcode.com/problems/merge-two-sorted-lists/
+# Date: 2025-08-31 18:11:23
+
+        # Attach the remaining nodes
+        if list1:
+            tail.next = list1
+        else:
+            tail.next = list2
+
+        return dummy.next
+
+            
+
+
+
+# End of solution for Problem 21
+==================================================

@@ -68,5 +68,12 @@
     "question_slug": "two-sum",
     "timestamp": "2025-08-27T07:35:06.393Z",
     "url": "https://leetcode.com/problems/two-sum/"
+  },
+  {
+    "question_number": "21",
+    "question_title": "Merge Two Sorted Lists",
+    "question_slug": "merge-two-sorted-lists",
+    "timestamp": "2025-08-31T12:41:23.410Z",
+    "url": "https://leetcode.com/problems/merge-two-sorted-lists/"
   }
 ]
