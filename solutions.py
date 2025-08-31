@@ -57,9 +57,10 @@ class Solution:
 
 
 
+
 # Problem 21: Merge Two Sorted Lists
 # URL: https://leetcode.com/problems/merge-two-sorted-lists/
-# Date: 2025-08-31 18:11:35
+# Date: 2025-08-31 18:15:33
 
 
         while list1 and list2:
