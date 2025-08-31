@@ -56,21 +56,23 @@ class Solution:
 ==================================================
 
 
+
 # Problem 21: Merge Two Sorted Lists
 # URL: https://leetcode.com/problems/merge-two-sorted-lists/
-# Date: 2025-08-31 18:11:23
+# Date: 2025-08-31 18:11:35
 
-        # Attach the remaining nodes
-        if list1:
-            tail.next = list1
-        else:
-            tail.next = list2
 
-        return dummy.next
-
-            
+        while list1 and list2:
+            if list1.val < list2.val:
+                tail.next = list1
+                list1 = list1.next
+            else:
+                tail.next = list2
+                list2 = list2.next
+            tail = tail.next
 
 
 
 # End of solution for Problem 21
 ==================================================
+
