@@ -61,17 +61,16 @@ class Solution:
 
 
 
+
 # Problem 175: Combine Two Tables
 # URL: https://leetcode.com/problems/combine-two-tables/
-# Date: 2025-09-20 17:40:57
+# Date: 2025-09-20 17:42:43
 
-import pandas as pd
+# Write your MySQL query statement below
 
-def combine_two_tables(person: pd.DataFrame, address: pd.DataFrame) -> pd.DataFrame:
-    df = pd.merge(person,address, on="personId", how="left")
-    
-    return df[['firstName', 'lastName', 'city', 'state']]
-    
+SELECT p.firstName, p.lastName, a.city, a.state
+FROM Person p
+LEFT JOIN Address a ON p.personId = a.personId;
 
 # End of solution for Problem 175
 ==================================================
