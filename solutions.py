@@ -60,9 +60,10 @@ class Solution:
 ==================================================
 
 
+
 # Problem 175: Combine Two Tables
 # URL: https://leetcode.com/problems/combine-two-tables/
-# Date: 2025-09-20 17:40:41
+# Date: 2025-09-20 17:40:57
 
 import pandas as pd
 
@@ -74,3 +75,4 @@ def combine_two_tables(person: pd.DataFrame, address: pd.DataFrame) -> pd.DataFr
 
 # End of solution for Problem 175
 ==================================================
+
