@@ -61,5 +61,12 @@
     "question_slug": "count-hills-and-valleys-in-an-array",
     "timestamp": "2025-08-26T17:47:17.919Z",
     "url": "https://leetcode.com/problems/count-hills-and-valleys-in-an-array/submissions/1749300035/?envType=daily-question&envId=2025-08-17"
+  },
+  {
+    "question_number": "175",
+    "question_title": "Combine Two Tables",
+    "question_slug": "combine-two-tables",
+    "timestamp": "2025-09-20T21:40:41.370Z",
+    "url": "https://leetcode.com/problems/combine-two-tables/description/"
   }
 ]

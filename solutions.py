@@ -59,3 +59,18 @@ class Solution:
 # End of solution for Problem 1302
 ==================================================
 
+
+# Problem 175: Combine Two Tables
+# URL: https://leetcode.com/problems/combine-two-tables/
+# Date: 2025-09-20 17:40:41
+
+import pandas as pd
+
+def combine_two_tables(person: pd.DataFrame, address: pd.DataFrame) -> pd.DataFrame:
+    df = pd.merge(person,address, on="personId", how="left")
+    
+    return df[['firstName', 'lastName', 'city', 'state']]
+    
+
+# End of solution for Problem 175
+==================================================
