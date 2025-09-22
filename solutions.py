@@ -79,21 +79,15 @@ LEFT JOIN Address a ON p.personId = a.personId;
 
 
 
+
 # Problem 176: Second Highest Salary
 # URL: https://leetcode.com/problems/second-highest-salary/
-# Date: 2025-09-21 23:21:48
+# Date: 2025-09-21 23:22:32
 
-import pandas as pd
-
-def second_highest_salary(employee: pd.DataFrame) -> pd.DataFrame:
-    df = pd.DataFrame(columns = ['SecondHighestSalary'])
-    if len(employee) == 0:
-        df.loc[0] = None
         return df
-    salaries = list(employee['salary'].unique())
-    if len(salaries) == 1:
-        df.loc[0] = None
-
+    else:
+        df.loc[0] = ((sorted(salaries))[-2])
+        return df
 
 # End of solution for Problem 176
 ==================================================
