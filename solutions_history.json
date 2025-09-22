@@ -82,5 +82,12 @@
     "question_slug": "combine-two-tables",
     "timestamp": "2025-09-20T21:42:43.696Z",
     "url": "https://leetcode.com/problems/combine-two-tables/"
+  },
+  {
+    "question_number": "176",
+    "question_title": "Second Highest Salary",
+    "question_slug": "second-highest-salary",
+    "timestamp": "2025-09-22T03:20:12.477Z",
+    "url": "https://leetcode.com/problems/second-highest-salary/"
   }
 ]
