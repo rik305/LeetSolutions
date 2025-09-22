@@ -78,9 +78,10 @@ LEFT JOIN Address a ON p.personId = a.personId;
 
 
 
+
 # Problem 176: Second Highest Salary
 # URL: https://leetcode.com/problems/second-highest-salary/
-# Date: 2025-09-21 23:21:08
+# Date: 2025-09-21 23:21:48
 
 import pandas as pd
 
