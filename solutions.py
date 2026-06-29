@@ -94,9 +94,10 @@ LEFT JOIN Address a ON p.personId = a.personId;
 
 
 
+
 # Problem 177: Nth Highest Salary
 # URL: https://leetcode.com/problems/nth-highest-salary/
-# Date: 2026-06-28 18:43:17
+# Date: 2026-06-28 18:43:21
 
 import pandas as pd
 
