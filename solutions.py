@@ -92,3 +92,21 @@ LEFT JOIN Address a ON p.personId = a.personId;
 # End of solution for Problem 176
 ==================================================
 
+
+# Problem 177: Nth Highest Salary
+# URL: https://leetcode.com/problems/nth-highest-salary/
+# Date: 2026-06-28 18:43:16
+
+import pandas as pd
+
+def nth_highest_salary(employee: pd.DataFrame, N: int) -> pd.DataFrame:
+
+    unique_salaries = employee['salary'].drop_duplicates().sort_values(ascending=False)
+    if len(unique_salaries) < N or N <= 0:
+        return pd.DataFrame({f'getNthHighestSalary({N})': [None]})
+    nth_salary = unique_salaries.iloc[N - 1]
+    return pd.DataFrame({f'getNthHighestSalary({N})': [nth_salary]})
+
+
+# End of solution for Problem 177
+==================================================

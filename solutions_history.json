@@ -117,5 +117,12 @@
     "question_slug": "second-highest-salary",
     "timestamp": "2025-09-22T03:22:32.500Z",
     "url": "https://leetcode.com/problems/second-highest-salary/submissions/1778631097/"
+  },
+  {
+    "question_number": "177",
+    "question_title": "Nth Highest Salary",
+    "question_slug": "nth-highest-salary",
+    "timestamp": "2026-06-29T00:43:16.243Z",
+    "url": "https://leetcode.com/problems/nth-highest-salary/submissions/2049424448/"
   }
 ]
