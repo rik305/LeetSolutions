@@ -264,5 +264,12 @@
     "question_slug": "integer-to-roman",
     "timestamp": "2026-06-30T17:13:02.299Z",
     "url": "https://leetcode.com/problems/integer-to-roman/"
+  },
+  {
+    "question_number": "12",
+    "question_title": "Integer to Roman",
+    "question_slug": "integer-to-roman",
+    "timestamp": "2026-06-30T17:13:09.791Z",
+    "url": "https://leetcode.com/problems/integer-to-roman/submissions/2051489487/"
   }
 ]
