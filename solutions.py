@@ -148,11 +148,34 @@ class Solution:
 
 
 
+
 # Problem 12: Integer to Roman
 # URL: https://leetcode.com/problems/integer-to-roman/
-# Date: 2026-06-30 11:09:52
+# Date: 2026-06-30 11:12:51
 
-   num = num%100
+class Solution:
+    def intToRoman(self, num: int) -> str:
+        s = ""
+        if num > 1000:
+            m = int(num/1000)
+            num = num%1000
+            s += 'M' * m
+
+
+
+        if num > 899:
+            s += "CM"
+            num = num%100
+        elif num > 499:
+            s += "D"
+            num -= 500
+
+        if num > 399:
+            s += "CD"
+            num %= 100
+        else:
+            m = int(num/100)
+            num = num%100
             s += 'C' * m
 
 
@@ -165,7 +188,7 @@ class Solution:
 
         if num > 39:
             s += "XL"
-            num % 10
+            num %= 10
         else:
             m = int(num/10)
             num = num%10
@@ -173,19 +196,9 @@ class Solution:
 
         if num == 9:
             s += "IX"
+            return s
         elif num >= 5:
-            s += "V"
-            num -= 5
-        if num == 4:
-            s += "IV"
-        else:
-            s += 'I' * num
-        
-        return s
-
-
-
-
+            s += "V
 
 # End of solution for Problem 12
 ==================================================
