@@ -124,9 +124,10 @@ def nth_highest_salary(employee: pd.DataFrame, N: int) -> pd.DataFrame:
 
 
 
+
 # Problem 1460: Number of Substrings Containing All Three Characters
 # URL: https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
-# Date: 2026-06-30 08:56:42
+# Date: 2026-06-30 09:03:03
 
 class Solution:
     def numberOfSubstrings(self, s: str) -> int:
@@ -144,3 +145,45 @@ class Solution:
 # End of solution for Problem 1460
 ==================================================
 
+
+# Problem 12: Integer to Roman
+# URL: https://leetcode.com/problems/integer-to-roman/
+# Date: 2026-06-30 11:08:49
+
+     num = num%100
+            s += 'C' * m
+
+
+        if num > 89:
+            s += "XC"
+            num = num%10
+        elif num > 49:
+            s += "L"
+            num -= 50
+
+        if num > 39:
+            s += "XL"
+            num % 10
+        else:
+            m = int(num/10)
+            num = num%10
+            s += 'X' * m
+
+        if num == 9:
+            s += "IX"
+        elif num > 5:
+            s += "V"
+            num -= 5
+        if num == 5:
+            s += "V"
+        else:
+            s += 'I' * num
+        
+        return s
+
+
+
+
+
+# End of solution for Problem 12
+==================================================

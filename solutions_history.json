@@ -215,5 +215,19 @@
     "question_slug": "number-of-substrings-containing-all-three-characters",
     "timestamp": "2026-06-30T14:56:42.172Z",
     "url": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/?envType=daily-question&envId=2026-06-30"
+  },
+  {
+    "question_number": "1460",
+    "question_title": "Number of Substrings Containing All Three Characters",
+    "question_slug": "number-of-substrings-containing-all-three-characters",
+    "timestamp": "2026-06-30T15:03:03.513Z",
+    "url": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/?envType=daily-question&envId=2026-06-30"
+  },
+  {
+    "question_number": "12",
+    "question_title": "Integer to Roman",
+    "question_slug": "integer-to-roman",
+    "timestamp": "2026-06-30T17:08:49.619Z",
+    "url": "https://leetcode.com/problems/integer-to-roman/"
   }
 ]
