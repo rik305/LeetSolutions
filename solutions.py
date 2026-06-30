@@ -154,9 +154,10 @@ class Solution:
 
 
 
+
 # Problem 12: Integer to Roman
 # URL: https://leetcode.com/problems/integer-to-roman/
-# Date: 2026-06-30 11:13:15
+# Date: 2026-06-30 11:14:23
 
 class Solution:
     def intToRoman(self, num: int) -> str:
@@ -188,7 +189,14 @@ class Solution:
             s += "XC"
             num = num%10
         elif num > 49:
-            s +
+            s += "L"
+            num -= 50
+
+        if num > 39:
+            s += "XL"
+            num %= 10
+        else:
+     
 
 # End of solution for Problem 12
 ==================================================
