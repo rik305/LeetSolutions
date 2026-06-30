@@ -147,11 +147,12 @@ class Solution:
 
 
 
+
 # Problem 12: Integer to Roman
 # URL: https://leetcode.com/problems/integer-to-roman/
-# Date: 2026-06-30 11:09:02
+# Date: 2026-06-30 11:09:52
 
-     num = num%100
+   num = num%100
             s += 'C' * m
 
 
@@ -172,11 +173,11 @@ class Solution:
 
         if num == 9:
             s += "IX"
-        elif num > 5:
+        elif num >= 5:
             s += "V"
             num -= 5
-        if num == 5:
-            s += "V"
+        if num == 4:
+            s += "IV"
         else:
             s += 'I' * num
         
