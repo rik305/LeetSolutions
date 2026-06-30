@@ -113,3 +113,25 @@ def nth_highest_salary(employee: pd.DataFrame, N: int) -> pd.DataFrame:
 # End of solution for Problem 177
 ==================================================
 
+
+# Problem 1460: Number of Substrings Containing All Three Characters
+# URL: https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
+# Date: 2026-06-30 08:50:42
+
+class Solution:
+    def numberOfSubstrings(self, s: str) -> int:
+        l = len(s)
+        c = 0
+        for i in range(l):
+            for q in range(l):
+                p = l-q
+                if q-i>=3:
+                    if "a" in s[i:q] and "b" in s[i:q] and "c" in s[i:q]:
+                        c+=1
+        return c
+        
+                    
+        
+
+# End of solution for Problem 1460
+==================================================
