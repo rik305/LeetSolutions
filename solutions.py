@@ -150,14 +150,15 @@ class Solution:
 
 
 
+
 # Problem 12: Integer to Roman
 # URL: https://leetcode.com/problems/integer-to-roman/
-# Date: 2026-06-30 11:12:54
+# Date: 2026-06-30 11:13:02
 
 class Solution:
     def intToRoman(self, num: int) -> str:
         s = ""
-        if num > 1000:
+        if num >= 1000:
             m = int(num/1000)
             num = num%1000
             s += 'M' * m
@@ -184,22 +185,7 @@ class Solution:
             s += "XC"
             num = num%10
         elif num > 49:
-            s += "L"
-            num -= 50
-
-        if num > 39:
-            s += "XL"
-            num %= 10
-        else:
-            m = int(num/10)
-            num = num%10
-            s += 'X' * m
-
-        if num == 9:
-            s += "IX"
-            return s
-        elif num >= 5:
-            s += "V
+            s +
 
 # End of solution for Problem 12
 ==================================================
