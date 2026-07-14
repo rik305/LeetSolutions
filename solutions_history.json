@@ -292,5 +292,12 @@
     "question_slug": "integer-to-roman",
     "timestamp": "2026-06-30T17:14:23.803Z",
     "url": "https://leetcode.com/problems/integer-to-roman/"
+  },
+  {
+    "question_number": "1256",
+    "question_title": "Rank Transform of an Array",
+    "question_slug": "rank-transform-of-an-array",
+    "timestamp": "2026-07-14T10:35:38.018Z",
+    "url": "https://leetcode.com/problems/rank-transform-of-an-array/?envType=daily-question&envId=2026-07-12"
   }
 ]
