@@ -202,19 +202,21 @@ class Solution:
 ==================================================
 
 
+
 # Problem 1256: Rank Transform of an Array
 # URL: https://leetcode.com/problems/rank-transform-of-an-array/
-# Date: 2026-07-14 04:35:38
+# Date: 2026-07-14 04:35:57
 
 class Solution:
     def arrayRankTransform(self, arr: List[int]) -> List[int]:
         temp = sorted(list(set(arr)))
         idx = []
         for i in arr:
-            idx.append(temp.index(i))
+            idx.append(temp.index(i) + 1 )
 
         return idx
         
 
 # End of solution for Problem 1256
 ==================================================
+
