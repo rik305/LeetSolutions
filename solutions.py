@@ -205,19 +205,19 @@ class Solution:
 
 
 
+
+
 # Problem 1256: Rank Transform of an Array
 # URL: https://leetcode.com/problems/rank-transform-of-an-array/
-# Date: 2026-07-14 04:36:39
+# Date: 2026-07-14 04:37:29
 
 class Solution:
     def arrayRankTransform(self, arr: List[int]) -> List[int]:
-        temp = sorted(list(set(arr)))
-        idx = []
-        for i in arr:
-            idx.append(temp.index(i) + 1 )
-
-        return idx
+        unique_sorted = sorted(set(arr))
         
+        rank_map = {val: rank + 1 for rank, val in enumerate(unique_sorted)}
+        
+        return [rank_map[num] for num in arr]
 
 # End of solution for Problem 1256
 ==================================================
