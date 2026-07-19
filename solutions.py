@@ -224,3 +224,21 @@ class Solution:
 # End of solution for Problem 1256
 ==================================================
 
+
+# Problem 1159: Smallest Subsequence of Distinct Characters
+# URL: https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/
+# Date: 2026-07-18 19:17:52
+
+class Solution:
+    def smallestSubsequence(self, s: str) -> str:
+        dis = len(set(s))
+        res = 'z' * dis
+        for i in range(len(s) - dis + 1):
+            if len(set(s[i:i+dis-1])) < dis and s[i:i+dis-1] < res:
+                res = s[i:i+dis-1]
+        return res
+
+
+
+# End of solution for Problem 1159
+==================================================
