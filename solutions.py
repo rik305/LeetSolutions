@@ -229,9 +229,10 @@ class Solution:
 
 
 
+
 # Problem 1159: Smallest Subsequence of Distinct Characters
 # URL: https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/
-# Date: 2026-07-20 13:48:30
+# Date: 2026-07-20 13:48:32
 
 he stack IF:
             # 1. The current character is smaller than the top of the stack
