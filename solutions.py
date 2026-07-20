@@ -227,19 +227,23 @@ class Solution:
 
 
 
+
 # Problem 1159: Smallest Subsequence of Distinct Characters
 # URL: https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/
-# Date: 2026-07-18 19:18:29
+# Date: 2026-07-20 13:48:25
 
-class Solution:
-    def smallestSubsequence(self, s: str) -> str:
-        dis = len(set(s))
-        res = 'z' * dis
-        for i in range(len(s) - dis + 1):
-            if len(set(s[i:i+dis])) == dis and s[i:i+dis-1] < res:
-                res = s[i:i+dis]
-        return res
-
+he stack IF:
+            # 1. The current character is smaller than the top of the stack
+            # 2. The top of the stack appears again later in the string
+            while stack and char < stack[-1] and last_occurrence[stack[-1]] > idx:
+                removed_char = stack.pop()
+                seen.remove(removed_char)
+                
+            # Add the current character to our result
+            stack.append(char)
+            seen.add(char)
+            
+        return "".join(stack)
 
 
 # End of solution for Problem 1159
