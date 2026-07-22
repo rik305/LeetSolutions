@@ -251,3 +251,14 @@ he stack IF:
 # End of solution for Problem 1159
 ==================================================
 
+
+# Problem 1386: Shift 2D Grid
+# URL: https://leetcode.com/problems/shift-2d-grid/
+# Date: 2026-07-22 10:28:59
+
+class Solution:
+    def shiftGrid(self, grid: List[List[int]], k: int) -> List[List[int]]:
+        
+
+# End of solution for Problem 1386
+==================================================

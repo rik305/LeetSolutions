@@ -390,5 +390,12 @@
     "question_slug": "smallest-subsequence-of-distinct-characters",
     "timestamp": "2026-07-20T19:48:32.715Z",
     "url": "https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/submissions/2075049304/?envType=daily-question&envId=2026-07-19"
+  },
+  {
+    "question_number": "1386",
+    "question_title": "Shift 2D Grid",
+    "question_slug": "shift-2d-grid",
+    "timestamp": "2026-07-22T16:28:59.365Z",
+    "url": "https://leetcode.com/problems/shift-2d-grid/?envType=daily-question&envId=2026-07-19"
   }
 ]
