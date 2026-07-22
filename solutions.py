@@ -252,13 +252,27 @@ he stack IF:
 ==================================================
 
 
+
 # Problem 1386: Shift 2D Grid
 # URL: https://leetcode.com/problems/shift-2d-grid/
-# Date: 2026-07-22 10:28:59
+# Date: 2026-07-22 10:37:29
 
 class Solution:
     def shiftGrid(self, grid: List[List[int]], k: int) -> List[List[int]]:
+        m = len(grid)
+        n = len(grid[0])
+        res = [[0] * n for _ in range(m)]
         
+        for r in range(m):
+            for c in range(n):
+                new_1d = (r * n + c + k) % (m * n)
+                new_r = new_1d // n
+                new_c = new_1d % n
+                
+                res[new_r][new_c] = grid[r][c]
+                
+        return res
 
 # End of solution for Problem 1386
 ==================================================
+
