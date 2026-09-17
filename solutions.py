@@ -280,3 +280,24 @@ class Solution:
 # End of solution for Problem 1386
 ==================================================
 
+
+# Problem 104: Maximum Depth of Binary Tree
+# Difficulty: Easy
+# Language: python3
+# Date: 2026-09-17, 13:29:03
+# URL: https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/2144999126/
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def maxDepth(self, root: TreeNode | None) -> int:
+        if root == None:
+            return 0
+        else: 
+            return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))       
+
+# ============================================================
