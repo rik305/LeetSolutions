@@ -408,3 +408,26 @@ class Solution:
         return res
 
 # ============================================================
+
+# Problem 1737: Maximum Nesting Depth of the Parentheses
+# Difficulty: Easy
+# Language: python3
+# Date: 2026-09-28, 10:22:37
+# URL: https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/submissions/2156060824/?envType=daily-question&envId=2026-09-28
+
+class Solution:
+    def maxDepth(self, s: str) -> int:
+        max_depth = 0
+        current_depth = 0
+        
+        for char in s:
+            if char == '(':
+                current_depth += 1
+                if current_depth > max_depth:
+                    max_depth = current_depth
+            elif char == ')':
+                current_depth -= 1
+                
+        return max_depth
+
+# ============================================================
