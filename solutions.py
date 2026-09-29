@@ -467,3 +467,21 @@ class Solution:
         
 
 # ============================================================
+
+# Problem 70: Climbing Stairs
+# Difficulty: Easy
+# Language: python3
+# Date: 2026-09-29, 13:29:35
+# URL: https://leetcode.com/problems/climbing-stairs/submissions/2157398409/?envType=problem-list-v2&envId=math
+
+class Solution:
+    def climbStairs(self, n: int) -> int:
+        if n == 2:
+            return 2
+        elif n==3:
+            return 3
+        else:
+            return 3 + (n-3) * 2
+        
+
+# ============================================================
