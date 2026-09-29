@@ -454,3 +454,16 @@ class Solution:
         return max_depth
 
 # ============================================================
+
+# Problem 70: Climbing Stairs
+# Difficulty: Easy
+# Language: python3
+# Date: 2026-09-29, 13:27:29
+# URL: https://leetcode.com/problems/climbing-stairs/submissions/2157395567/?envType=problem-list-v2&envId=math
+
+class Solution:
+    def climbStairs(self, n: int) -> int:
+        return n
+        
+
+# ============================================================
