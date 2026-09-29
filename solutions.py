@@ -485,3 +485,18 @@ class Solution:
         
 
 # ============================================================
+
+# Problem 70: Climbing Stairs
+# Difficulty: Easy
+# Language: python3
+# Date: 2026-09-29, 13:32:03
+# URL: https://leetcode.com/problems/climbing-stairs/submissions/2157401469/?envType=problem-list-v2&envId=math
+
+class Solution:
+    def climbStairs(self, n: int) -> int:
+        sqrt5 = math.sqrt(5)
+        phi = (1 + sqrt5) / 2
+        return round((phi ** (n + 1)) / sqrt5)
+        
+
+# ============================================================
