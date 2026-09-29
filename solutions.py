@@ -515,3 +515,19 @@ class Solution:
         
 
 # ============================================================
+
+# Problem 48: Rotate Image
+# Difficulty: Medium
+# Language: python3
+# Date: 2026-09-29, 13:41:26
+# URL: https://leetcode.com/problems/rotate-image/submissions/2157413740/?envType=problem-list-v2&envId=math
+
+class Solution:
+    def rotate(self, matrix: list[list[int]]) -> None:
+        """
+        Do not return anything, modify matrix in-place instead.
+        """
+        matrix[:] = zip(*matrix[::-1])
+        return matrix 
+
+# ============================================================
