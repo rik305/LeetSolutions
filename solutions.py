@@ -732,3 +732,32 @@ class Solution:
 
 
 # ============================================================
+
+# Problem 6: Zigzag Conversion
+# Difficulty: Medium
+# Language: python3
+# Date: 2026-11-16, 20:28:47
+# URL: https://leetcode.com/problems/zigzag-conversion/submissions/2197657083/
+
+from collections import defaultdict
+class Solution:
+    def convert(self, s: str, numRows: int) -> str:
+        if numRows == 1:
+            return s
+        numRows -= 1
+        d = defaultdict(list)
+        c = 0
+        up = 1
+        for i in s:
+            d[c].append(i)
+            c += up
+            if c%numRows == 0:
+                up *= -1
+        s = "".join(str(item) for lst in d.values() for item in lst)
+        return s
+
+
+            
+
+
+# ============================================================
