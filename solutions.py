@@ -557,3 +557,30 @@ class Solution:
 
 
 # ============================================================
+
+# Problem 6: Zigzag Conversion
+# Difficulty: Medium
+# Language: python3
+# Date: 2026-11-16, 20:24:43
+# URL: https://leetcode.com/problems/zigzag-conversion/
+
+from collections import defaultdict
+class Solution:
+    def convert(self, s: str, numRows: int) -> str:
+        numRows -= 1
+        d = defaultdict(list)
+        c = 0
+        up = 1
+        for i in s:
+            d[c].append(i)
+            c += up
+            if c%numRows == 0:
+                up *= -1
+        print(d)
+        
+
+
+            
+
+
+# ============================================================
